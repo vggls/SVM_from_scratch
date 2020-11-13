@@ -4,5 +4,4 @@
 - In "**smo_class.ipynb**" we build a class which reproduces the Sequential Minimal Optimization algorithm and computes the support vectors for optimal margin boundaries.
   Based on the arguments we pass we either get the support vectors of a hyperplane (for a "penalty" hyperparameter C of our choice) or the support vectors of a kernelized 
   boundary (for kernel hyperparameters of our choice) by making use of the Kernel Trick.
-- In "**kernel_classifier.ipynb**" we find a classifier that separates well data that lie inside a circle (labelled with 1) from data that lie inside a ring that 
-  contains the circle (labelled with -1).
+- In "**noisy_moons_kernel_classifier.ipynb**" we find a classifier that separates data that cannot be separated by a linear classifier.
